@@ -1,6 +1,6 @@
 import React from "react";
 
-const carousel = () => {
+const Carousel = () => {
   return (
     <div id='demo' className='carousel slide' data-ride='carousel'>
       {/* Indicators */}
@@ -13,7 +13,7 @@ const carousel = () => {
       <div className='carousel-inner'>
         <div className='carousel-item active'>
           <img
-            src='./img/slide_1.jpg'
+            src={require("../assets/img/slide_1.jpg")}
             alt='Los Angeles'
             width={1100}
             height={500}
@@ -21,7 +21,7 @@ const carousel = () => {
         </div>
         <div className='carousel-item'>
           <img
-            src='./img/slide_2.jpg'
+            src={require("../assets/img/slide_2.jpg")}
             alt='Chicago'
             width={1100}
             height={500}
@@ -29,7 +29,7 @@ const carousel = () => {
         </div>
         <div className='carousel-item'>
           <img
-            src='./img/slide_3.jpg'
+            src={require("../assets/img/slide_3.jpg")}
             alt='New York'
             width={1100}
             height={500}
@@ -47,4 +47,4 @@ const carousel = () => {
   );
 };
 
-export default carousel;
+export default Carousel;
