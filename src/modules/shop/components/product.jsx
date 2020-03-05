@@ -21,7 +21,6 @@ class Product extends Component {
   };
   render() {
     let { product, addContentModal } = this.props;
-    console.log(product.img);
     return (
       <div>
         <div className='col-xs-12 col-sm-6 col-md-6 col-lg-3 col-lg-3'>
