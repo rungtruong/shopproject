@@ -7,14 +7,14 @@ import Sidebar from './shared/components/Sidebar';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import DashBoard from './modules/dashboard/containers/DashBoard';
-import MENU from './shared/components/sidebarList';
+import MENU from './shared/components/menuList';
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <Fragment>
-          <div>
+          <div className="wrapper">
             <Header />
             <Sidebar menu={MENU} />
             <div className="content-wrapper">
