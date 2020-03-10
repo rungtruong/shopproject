@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import PERMISSION from "../../utils/permissions";
 import { NavLink } from "react-router-dom";
-export default class Sidebar extends Component {  
+export default class Sidebar extends Component {
   renderMenu = () => {
     return this.props.menu.map((menu, i) => {
       if (menu.isGroup === false) {
@@ -37,7 +36,7 @@ export default class Sidebar extends Component {
                       to={submenu.url}
                       activeClassName='active'
                       className='nav-link text-left'>
-                      <i className='far fa-circle nav-icon' />
+                      <i className={"far nav-icon " + submenu.icon} />
                       <p>{submenu.name}</p>
                     </NavLink>
                   </li>
@@ -48,15 +47,13 @@ export default class Sidebar extends Component {
         );
     });
   };
-  checkPermission =() =>{
-
-  };
+  checkPermission = () => {};
   render() {
     return (
       <aside className='main-sidebar sidebar-dark-primary elevation-4 sidebar-no-expand'>
         {/* Brand Logo */}
         <NavLink to='dashboard' className='brand-link'>
-          <span className='brand-text font-weight-light'>AdminLTE 3</span>
+          AdminLTE 3
         </NavLink>
         {/* Sidebar */}
         <div className='sidebar'>

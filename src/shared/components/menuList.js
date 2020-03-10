@@ -1,5 +1,4 @@
-import ROUTE from "../../utils/systemconst";
-import PERMISSION from "../../utils/permissions";
+import {ROUTE, PERMISSION} from "../../utils/systemconst";
 
 let MENU = [
     {
@@ -19,6 +18,14 @@ let MENU = [
         flag: PERMISSION.DASHBOARD_VIEW
     },
     {
+        name: "QLSV",
+        url: "qlsv",
+        isGroup: false,
+        childs: [],
+        icon: "fa-user-friends",
+        flag: PERMISSION.DASHBOARD_VIEW
+    },
+    {
         name: "User",
         url: "user",
         isGroup: true,
@@ -31,13 +38,13 @@ let MENU = [
             },
             {
                 name: "Store Owner Users",
-                icon: "fa fa-user-o",
+                icon: "fa fa-user-circle",
                 url: "a",
                 flag: ""
             },
             {
                 name: "School Admin Users",
-                icon: "fa fa-user-o",
+                icon: "fa fa-user-circle",
                 url: "a",
                 flag: ""
             }

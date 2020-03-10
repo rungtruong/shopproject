@@ -8,6 +8,7 @@ import Sidebar from './shared/components/Sidebar';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import DashBoard from './modules/dashboard/containers/DashBoard';
 import MENU from './shared/components/menuList';
+import DanhSachSinhVien from './modules/QLSV/containers/DanhSachSinhVien';
 
 class App extends Component {
   render() {
@@ -21,7 +22,8 @@ class App extends Component {
               <Switch>
                 <Route path="/shop" component={Shop} />
                 <Route path="/dashboard" component={DashBoard} />
-                <Route path="/" component={DashBoard} />
+                <Route path="/qlsv" component={DanhSachSinhVien} />
+                <Route path="/" component={DanhSachSinhVien} />
               </Switch>
             </div>
           </div>

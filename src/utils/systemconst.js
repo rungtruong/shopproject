@@ -1,6 +1,7 @@
-let ROUTE = {
+export const ROUTE = {
     NO_PERMISSION: "nopermission",
     LOGIN: 'login',
     DASHBOARD: 'dashboard',   
 };
-export default ROUTE;
+
+export const PERMISSION = {}
