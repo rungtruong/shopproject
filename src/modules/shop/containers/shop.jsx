@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Headers from "../components/Header";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 import Promotion from "../components/Promotion";
 import Carousel from "../components/Carousel";
 import ProductList from "../components/ProductList";
