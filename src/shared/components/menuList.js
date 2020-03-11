@@ -26,6 +26,14 @@ let MENU = [
         flag: PERMISSION.DASHBOARD_VIEW
     },
     {
+        name: "DSKH",
+        url: "dskh",
+        isGroup: false,
+        childs: [],
+        icon: "fa-file-code",
+        flag: PERMISSION.DASHBOARD_VIEW
+    },
+    {
         name: "User",
         url: "user",
         isGroup: true,

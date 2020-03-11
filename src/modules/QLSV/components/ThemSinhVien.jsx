@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { actAddSinhVien } from "../../../redux/actions/sinhvien";
 
-class ThemSinhVien extends Component {
+export class ThemSinhVien extends Component {
   constructor(props) {
     super(props);
     this.state = {

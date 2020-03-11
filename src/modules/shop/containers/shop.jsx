@@ -27,12 +27,14 @@ export default class shop extends Component {
           title='BEST SMARTPHONE'
           bgTitle=''
           listProduct={mobileList}
-          addContentModal={this.addContentModal}/>
+          addContentModal={this.addContentModal}
+        />
         <ProductList
           title='BEST LAPTOP'
           bgTitle='white'
           listProduct={lapTopList}
-          addContentModal={this.addContentModal}/>
+          addContentModal={this.addContentModal}
+        />
         <Promotion></Promotion>
         <Footer name={this.name}></Footer>
 
