@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import 'react-select2-wrapper/css/select2.css';
 // import './assets/AdminLTE/plugins/fontawesome-free/css/all.min.css';
 // import './assets/AdminLTE/plugins/overlayScrollbars/css/OverlayScrollbars.min.css'
 // import './assets/AdminLTE/css/adminlte.min.css';
